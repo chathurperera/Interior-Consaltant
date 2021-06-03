@@ -1,9 +1,18 @@
-* , *::after , *::before{
+*,*::after,*::before{
     padding: 0;
     margin: 0;
-    box-sizing: border-box;
+    padding: 0;
 }
-
+html{
+    font-size: 62.5%;
+}
 body{
-    background:#181719;
+    background-color: #181719;
+    color: #fff;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
 }
